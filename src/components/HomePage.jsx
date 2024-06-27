@@ -20,18 +20,18 @@ const HomePage = () => {
          {/* Cards Section */}
       <section className="cards">
         <div className="card">
-          <img src="src/components/images/safety-cone-3442464_1280.jpg" alt="Card 1" />
+          <img src="src/components/images/trscking 2.jpg" alt="Card 1" />
           <p>Track vehicle behavior in real time.</p>
           <button>Learn More</button>
         </div>
         <div className="card">
-          <img src="src/components/images/pexels-nubikini-386009.jpg" alt="Card 2" />
+          <img src="src/components/images/pexels-pixabay-163016.jpg" alt="Card 2" />
           <p>Alert authorities of unsafe driving.</p>
           <button>Learn More</button>
         </div>
         <div className="card">
-          <img src="src/components/images/pexels-oliver-petry-2068272-5799381.jpg" alt="Card 3" />
-          <p>Ensure safety on all routes.</p>
+          <img src="src/components/images/pexels-pixabay-265087 (1).jpg" alt="Card 3" />
+          <p>Realtime analytics and alerts for safety.</p>
           <button>Learn More</button>
         </div>
       </section>

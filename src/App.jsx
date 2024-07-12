@@ -1,26 +1,25 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ReportForm from './components/ReportForm';
-import HomePage from './components/HomePage';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ReportForm from "./components/ReportForm";
+import HomePage from "./components/HomePage";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import "./App.css";
 
 const App = () => {
   return (
     <Router>
       <div className="container">
         <header className="header">
-          <nav className="navbar">
-            <div className="brand">DriveGuard</div>
-            <div className="nav-links">
-              <Link to="/">Home</Link>
-              <Link to="/report">Report</Link>
-            </div>
-          </nav>
+          <Navbar />
         </header>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/report" element={<ReportForm />} />
         </Routes>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </Router>
   );
